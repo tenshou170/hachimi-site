@@ -2,7 +2,12 @@
 title: About
 ---
 
-# Hachimi
+# Hachimi-Edge
+
+::: warning NOTICE
+ `Edge` donotes the status of this fork being an active community-maintained fork, separate from the main yet inactive project.
+ :::
+
 [![Discord server](https://dcbadge.limes.pink/api/server/https://discord.gg/BVEt5FcxEn)](https://discord.gg/BVEt5FcxEn)
 
 Game translation and enhancement mod for UM:PD.

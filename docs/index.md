@@ -1,8 +1,8 @@
 # Documentation
-Welcome to the Hachimi Edge documentation page!  
+Welcome to the Hachimi-Edge documentation page!  
 Check out all topics on the left sidebar. On mobile, you can find them in the menu at the top left.
 
-## Installing Hachimi
+## Installing Hachimi-Edge
 Check out the [Getting Started](/docs/hachimi/getting-started) page.
 
 ## Contributing as a translator

@@ -1,4 +1,5 @@
-# Getting started
+# Getting Started
+
 <small>
 
 View this page in other languages:  
@@ -6,29 +7,26 @@ View this page in other languages:
 
 </small>
 
-::: warning
-This project is inherently against the game's TOS.  
+::: danger ⚠️ IMPORTANT
+This project is inherently against the game's [Terms of Use & Copyrights](https://umamusume.com/terms/).  
 Use at your own risk, and please share names and links in a responsible manner, so as to minimize attention from the developers.
-:::
-
-::: warning
-Existing Hachimi user? You will need to change to Hachimi Edge due to a big game update on 2025/09/24 (JP) and 2025/11/11 (Global).
 :::
 
 ## Compatibility
 
-⚠️ Please check before installing.
+### ⚠️ Please check before installing
 
-### Windows
+#### Windows
+
 | Version | Supported |
 | --- | :---: |
 | JP (DMM) | ✅ |
 | JP (Steam) | ✅ |
 | KR | ❌ |
-| Global | ✅ |
+| Global | ✳️ |
 | Emulators (any region) | ❌ |
 
-### Android
+#### Android
 
 | Version | Normal install | Direct install | Zygisk |
 | --- | :---: | :---: | :---: |
@@ -40,12 +38,15 @@ Existing Hachimi user? You will need to change to Hachimi Edge due to a big game
 | Global | ⚠️ | ⚠️ | ❔ |
 
 <small>
-✅ - Fully supported.<br>
-⚠️ - Technically works, but causes the game to fail due to external factors.<br>
-❔ - Untested. Might work, but don't count on it.<br>
-❌ - Not supported.<br>
+
+✅ - Fully supported.  
+✳️ - Partially supported, expect some features to break or remain unsupported.  
+⚠️ - Technically works, but causes the game to fail due to external factors.  
+❔ - Untested. Might work, but don't count on it.  
+❌ - Not supported.  
+
 </small>
 
-## [Installation guide for JP](getting-started-jp.md)
+## [Installation Guide for JP](getting-started-jp.md)
 
-## [Installation guide for Global / TW / CN](getting-started-other.md)
+## [Installation Guide for Global / TW / CN](getting-started-other.md)

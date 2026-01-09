@@ -1,3 +1,3 @@
 ---
-title: Hachimi
+title: Hachimi-Edge
 ---
