@@ -26,9 +26,11 @@ This happens because there is a mismatch between the game's sprite textures and 
     - On Android/some devices, you *might* also need to delete the `atlas` folder to let it update correctly.
 1. If no update was found, your translation source is out of date. Just wait for an update, or check in with the source.
     - <small>If it's close to a game update, source maintainers will likely be working on it. Please check if they're already aware before bothering them.</small>
+1. Your translation source might be entirely inactive. This could indicate you're still using an old source from the original Hachimi.
+Make sure you're using Hachimi Edge, then open its menu and go through the `First time setup` again. 
+1. The list of sources itself could be outdated, particularly if you upgraded straight from old Hachimi. In this case, you can use `Restore Defaults` to reset it to the latest bundled one. 
+    - ⚠️ Warning: This will reset all settings.  
 
-Your translation source might also be inactive. This could indicate you're still using an old source from the original Hachimi.
-Make sure you're using Hachimi Edge, then open its menu and go through the `First time setup` again.  
 If no active source for your language exists, you can check `Menu` -> `Config Editor` -> `Disable translations` if needed.
 
 ### Something isn't translated
@@ -59,11 +61,8 @@ If that doesn't work, you can ask in the `#help` channel on the [Hachimi Discord
 
 ### Runtime error on launch
 
-::: warning
-If you're on global, a game update around 2025/11/11 has broken Hachimi support. Uninstall and await a fix.
-:::
-
-This means you're using an old version of Hachimi, which broke after the game update on 2025/09/24. [Install Hachimi Edge](getting-started.md).
+This means you're using an old version of Hachimi, which broke after the game update on 2025/09/24 (JP) and 2025/11/11 (Global). 
+[Install Hachimi Edge](getting-started.md).
 
 If you're already using Edge, try reinstalling the latest version.
 
@@ -96,6 +95,9 @@ The Steam overlay can sometimes interfere with Hachimi's overlay. Disable one of
     
 To disable Hachimi's: open the Hachimi menu and check the "Disable overlay (GUI)" checkbox in the "General" tab, press Save, and restart the game. 
 When you want to re-enable Hachimi's overlay, open Hachimi's config file (config.json) in a text editor and change the `disable_gui` value from `true` back to `false`, then restart the game. This config file is located in the `hachimi` folder inside the game's installation folder.
+
+### Steam Global: Stuck at start screen
+This seems to be a bug in the game itself, which Hachimi causes to trigger much more easily. Use `alt` + `enter` to toggle between fullscreen and windowed. This should let you continue. An official fix is presumably coming.
 
 ### DMM: Input registering at the wrong spot on the screen after the window is resized
 

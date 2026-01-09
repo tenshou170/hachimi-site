@@ -43,7 +43,7 @@ features:
 
 ## About
 
-Hachimi Edge is a fork of the unmaintained [Hachimi](https://hachimi.leadrdrk.com) mod. It was made to quickly serve issues fixed after the game update on 2025/09/24 to users, and has since incorporated additional features and fixes by various community members. If you are still using the original Hachimi, please uninstall it and install Edge to resolve issues. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
+Hachimi Edge is a working fork of the unmaintained Hachimi mod. It was made to quickly serve issues fixed after the game update on 2025/09/24 to users, and has since incorporated additional features and fixes by various community members. Hachimi not working? Runtime errors? Patching failed? You are likely still using the original Hachimi. Uninstall it and install the new Edge version to resolve issues. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
 
 ## UmaPatcher
 
@@ -52,7 +52,8 @@ The latest Hachimi Edge version is automatically downloaded when patching, so yo
 
 ## Translations
 
-Translations are sourced from various community projects. Hachimi provides a framework to modify the game, it does not do any translation itself.
+Translation sources are indexed from various separate community projects. Hachimi provides a framework to modify the game, it does not do or manage any translations itself, and has nothing to do with these sources.
+Not finding translations for newer content? Looking for a different language? Hachimi Edge indexes more and up-to-date repositories than the original.
 Check out the sources in more detail on the [credits page](credits.md) for general info, progress, help, and getting in contact.
 Try to support the contributors working on them!
 
